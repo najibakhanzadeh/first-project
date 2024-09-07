@@ -1,0 +1,135 @@
+    @font-face {
+    font-family: " roboto";
+    src: url("fonts/Roboto-Black.ttf");
+}
+body{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: cursive;
+    color: #120239;
+}
+/* -----color----- */
+.blue{
+    background-color: rgb(0, 195, 255);
+}
+.green{
+    background-color: rgb(60, 224, 60);
+}
+.black{
+    background-color: rgb(172, 131, 131);
+}
+.violet{
+    background-color: #e3defe;
+}
+.header, .footer{
+    height: auto;
+    /* background-color: gray; */
+    font-size: 40px;
+    text-align: center;
+}
+div.header img{
+    height: 500px;
+}
+div.footer{
+    height: auto;
+    /* background-color: gray; */
+    font-size: 40px;
+    text-align: center;
+}
+.box-shadow1{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+h4{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 30px;
+}
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.pad{
+    padding: 25px 15px;
+}
+.b-rad7{
+    border-radius: 7px;
+}
+.pad2{
+    padding: 15px 10px;
+}
+@media screen and (max-width:768px) {
+    p{
+       font-size: 20px; 
+       
+    }
+    h4{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    li a{
+        font-size: 15px;
+        padding-bottom: 25px;
+    }
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding-right: 20px;
+    
+   
+}
+li{
+  display: inline-block;
+  text-align: end;
+  padding: 10px;
+  font-size: 20px;
+ 
+ 
+ 
+}
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #120239;
+}
+div.menu{
+    display: flex;
+    justify-content: right;
+}
+div.image{
+    background-image: url(images/de42d943895c7b9481ef68ceb78640ac.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+  
+}
+div.footer img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+div.container{
+    margin-top: 50px;
+}
+div.image{
+    margin-bottom: 40px;
+}
+div.footer p{
+    text-align: justify;
+    font-size: 15px;
+    /* padding-top: 20px; */
+}
+div.footer h4{
+    padding-top: 20px;
+}
